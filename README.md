@@ -1,1 +1,1 @@
-# Skin_Disesase_Detection-_System
+# Skin_Disesase_Detection_System
