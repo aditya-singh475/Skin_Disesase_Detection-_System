@@ -23,16 +23,12 @@ An intelligent skin disease detection system powered by deep learning. This proj
 - Promote early awareness through educational visuals.
 
 ---
-
-## 🧪 Methodology
-
-```mermaid
+## Methodlogy
 graph TD;
-    A[Upload Image] --> B[Lesion Detection (YOLOv8)];
-    B --> C[Disease Classification (ResNet/EfficientNet)];
-    C --> D[Confidence Score + Grad-CAM Heatmap];
-    D --> E[Interactive UI Output];
-
+A[Upload Image] --> B[Lesion Detection (YOLOv8)];
+B --> C[Disease Classification (EfficientNet)];
+C --> D[Image Enhancement];
+D --> E[Interactive GUI Output];
 
 
 
