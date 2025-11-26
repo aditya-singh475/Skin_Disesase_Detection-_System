@@ -32,14 +32,9 @@ graph TD;
     B --> C[Disease Classification (ResNet/EfficientNet)];
     C --> D[Confidence Score + Grad-CAM Heatmap];
     D --> E[Interactive UI Output];
-##  Dataset
-Melanoma & Benign Mole: ISIC / HAM10000
 
-Acne & Fungal: Kaggle dermatology datasets
 
-Split: Train (70%) / Validation (15%) / Test (15%)
 
-Diversity: Includes varied skin tones, lighting, and angles
 
 Augmentation: Used to balance limited disease samples
 
